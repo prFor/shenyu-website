@@ -371,7 +371,7 @@ Follow [Uploading packages](https://infra.apache.org/release-publishing.html#upl
 
 ```shell
 svn mv https://dist.apache.org/repos/dist/dev/shenyu/shenyu-nginx/${PUBLISH.VERSION} https://dist.apache.org/repos/dist/release/shenyu/shenyu-nginx -m "transfer packages for ${PUBLISH.VERSION}"
-svn delete https://dist.apache.org/repos/dist/release/shenyu/shenyu-nginx/${PREVIOUS.RELEASE.VERSION}
+svn delete https://dist.apache.org/repos/dist/dev/shenyu/shenyu-nginx/${PREVIOUS.RELEASE.VERSION}
 ``` 
 
 **2. Finish GitHub release**

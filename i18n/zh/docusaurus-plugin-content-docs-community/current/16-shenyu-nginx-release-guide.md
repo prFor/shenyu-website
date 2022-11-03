@@ -369,7 +369,7 @@ Thanks everyone for taking the time to verify and vote for the release!
 
 ```shell
 svn mv https://dist.apache.org/repos/dist/dev/shenyu/shenyu-nginx/${PUBLISH.VERSION} https://dist.apache.org/repos/dist/release/shenyu/shenyu-nginx -m "transfer packages for ${PUBLISH.VERSION}"
-svn delete https://dist.apache.org/repos/dist/release/shenyu/shenyu-nginx/${PREVIOUS.RELEASE.VERSION}
+svn delete https://dist.apache.org/repos/dist/dev/shenyu/shenyu-nginx/${PREVIOUS.RELEASE.VERSION}
 ```
 
 **2. 完成 GitHub release**
